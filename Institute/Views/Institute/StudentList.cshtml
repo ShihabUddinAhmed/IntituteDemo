@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Students List";
+}
+
+<title>@ViewData["Title"]</title>
+<div class="container">
+    <h1 class="text-center">The place where student list should be found</h1>
+    <div class="btn btn-primary">@Html.ActionLink("Create New", "CreateStudent", "Institute" ,null,new {@class="text-white"} )</div>
+    
+    <table class="table table-striped">
+        <thead>
+            <th>ID</th>
+            <th>Student's Name</th>
+            <th>CGPA</th>
+            <th>Passing year (Approx.)</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Rakib Hasan</td>
+            <td>3.55</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Joynal Abedin</td>
+            <td>3.85</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rabindranath Tagore</td>
+            <td>2.65</td>
+            <td>2024</td>
+        </tr>
+    </table>
+</div>

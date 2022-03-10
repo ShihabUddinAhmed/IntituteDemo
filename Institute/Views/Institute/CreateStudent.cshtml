@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Create New Student";
+}
+<div class="container">
+    <h1 class="display-5">Student Enroll Form</h1>
+    <div class="form">
+        <form class="form-control">
+            <table class="table table-responsive">
+                <tr>
+                    <td>Name:</td>
+                    <td><input class="form-control" type="text" placeholder="Student Full Name" /></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input class="form-control" type="date" /></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input class="form-control" type="text" placeholder="Age" /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" id="genderM" name="gender" value="Male" />&nbsp;<label for="genderM">Male</label> &emsp; <input type="radio" id="genderF" name="gender" value="Female" />
+                        &nbsp;<label for="genderF">Female</label> &emsp; <input type="radio" id="genderO" name="gender" value="Others" />&nbsp;<label for="genderO">Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact No:</td>
+                    <td><input class="form-control" type="text" placeholder="Contact Number" /></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input class="form-control" type="text" placeholder="Email" /></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input class="form-control" type="text" placeholder="Address" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Father's Name:</td>
+                    <td><input class="form-control" type="text" placeholder="Father's Full Name" /></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name:</td>
+                    <td><input class="form-control" type="text" placeholder="Mother's Full Name" /></td>
+                </tr>
+                <tr>
+                    <td>NID/Birth Certification Number:</td>
+                    <td><input class="form-control" type="text" placeholder="NID / Birth Certification Number" /></td>
+                </tr>
+                
+            </table>
+            <input class="btn btn-success" type="submit" value="Create Student" />&emsp;<input class="btn btn-primary" type="button" value="Go back" />
+        </form>
+    </div>
+</div>
